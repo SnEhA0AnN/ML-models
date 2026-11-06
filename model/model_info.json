@@ -1,0 +1,63 @@
+{
+  "target": "Revenue",
+  "features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "PageValues",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "Month",
+    "VisitorType",
+    "Weekend",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType"
+  ],
+  "categorical": [
+    "Month",
+    "VisitorType",
+    "Weekend",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType"
+  ],
+  "files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.003,
+      "class_weight": "balanced"
+    },
+    "Decision Tree": {
+      "class_weight": null,
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "KNN": {
+      "n_neighbors": 31,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1.0
+    },
+    "Support Vector Machine": {
+      "C": 0.1,
+      "class_weight": "balanced"
+    }
+  },
+  "train_rows": 9764,
+  "test_rows": 2441,
+  "seed": 42
+}
