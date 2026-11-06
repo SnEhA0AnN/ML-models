@@ -125,6 +125,7 @@ The app only loads the saved `.joblib` pipelines from `model/` and calls `predic
 
 ```bash
 pip install -r requirements.txt
-python train_models.py --data data/online_shoppers_intention.csv   # optional: rebuilds model/ and test_data.csv
+# optional: retrain and rebuild model/ and test_data.csv
+python train_models.py --data data/online_shoppers_intention.csv
 streamlit run app.py
 ```
