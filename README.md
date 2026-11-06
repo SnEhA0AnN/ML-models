@@ -109,7 +109,7 @@ Confusion matrices on the test set (TN / FP / FN / TP): LR 1848 / 211 / 78 / 304
 
 ## Streamlit app
 
-**Live app:** _link to be added after deployment_
+**Live app:** https://ml-models-2026aj05831.streamlit.app
 
 Features:
 - Upload a test CSV (the 17 features + `Revenue`). `test_data.csv` can also be downloaded from the sidebar.
